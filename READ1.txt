@@ -1,0 +1,25 @@
+steps area as follows:
+python -m venv venv
+venv\Scripts\activate
+
+Run the above commands in the terminal in vs code in the same folder where the project
+
+Note - use clear or cls in order to clean the terminal in vs code
+Create this file README.md in vs code
+
+git init
+git add README.md  
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AYUSHNATEKAR/mlproject.git
+git remote -v - to check the status of fetch and push from the repository
+git push -u origin main
+
+go to the repository and create one file .gitignore and select language python and commit changes and then in vs code terminal 
+git pull so the file also get into your local folder
+
+and then create setup.py file
+
+pip install -e .
+this command will automatically download all the libraries in the requirements.txt and then i folder will get created mlproject.egg-info
+this ensure that that libraries are installed
