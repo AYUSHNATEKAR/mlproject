@@ -23,3 +23,9 @@ and then create setup.py file
 pip install -e .
 this command will automatically download all the libraries in the requirements.txt and then i folder will get created mlproject.egg-info
 this ensure that that libraries are installed
+
+git add .
+git commit -m "setup"
+git push -u origin main
+after this the file will be updated in the repository
+
